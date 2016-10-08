@@ -147,6 +147,8 @@
       break;
       default:
         account = 'voxproduct';
+      mycred_add( 'reference', $user_id, finalScore, 'Points for being awesome!' );
+
     }
 
     $(".quiz-container")
